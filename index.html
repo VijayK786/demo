@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LPU Online </title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+<!-- custom CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/pro.css">
+<link href="css/animate.css" rel="stylesheet">
+<link rel="stylesheet" href="js/form/validationEngine.jquery.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@400;500;700&display=swap" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<header id="header" class="header">  
+<div class="header-absolute w-100">
+<div class="container">
+<div class="top-head py-2">
+<div class="row align-items-center">
+<div class="col-lg-4 col-md-5 col-6">
+<div class="logo"> 
+<img class="img-fluid" src="images/LPU-Online-Logo.svg" alt="LPU" />
+</div>
+</div>
+
+<div class="col-lg-8 col-md-7 col-6 mobile__dv text-end">
+<a class="fw-bold" href="tel:+917807775309"><span><i class="far fa-phone-volume"></i></span>+91-9911223344</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Hero section start (Slider) -->
+<section class="hero-section position-relative overflow">
+<div class="bc-img01 position-relative">
+<div class="w-55 border_ab desktop">
+<img class="img-fluid" src="images/border.svg" alt=""/>
+</div>
+<div class="container">
+<div class="zIndex2 position-relative">
+<div class="bnrThub desktop"><img class="img-fluid" src="images/bnrThub.webp" alt=""/></div>
+<div class="row">
+<div class="col-lg-6 col-md-12 leftsec_content">
+<div class="dsu-addmission position-relative">
+<div class="content_bnr-flex">
+
+<h1 class="title-anim font-weight-700 text-white mb-3 wow fadeInUp">Online Degrees</h1>
+</div>
+
+<div class="loction title-anim bg-white fs-4 rounded rounded-3 text-orange d-inline-block p-3 wow fadeInUp" data-wow-delay="0ms" >
+    <b class="font-weight-700">MBA, BCA, MCA, M.Com,</b>
+</div>
+<br/>
+<div class="loction title-anim bg-white fs-4 rounded rounded-3 text-orange d-inline-block p-3 mt-2 wow fadeInUp" data-wow-delay="400ms" >
+    <b class="font-weight-700">BA, MA, M.Sc, B.Tech</b>
+</div>
+<div class="mt-lg-5 mt-3 d-flex align-items-center wow fadeInUp" data-wow-delay="600ms" ><p class="fs-4 title-anim text-white">Accredited with </p>
+<div class="bg-white p-2 ms-2 rounded"><img src="images/naac-logo.svg" alt=""/></div>
+</div>
+
+<div class=" position-relative mt-2 wow fadeInUp">
+    <img class="img-fluid" src="images/upto.png" alt=""/>
+    <div class="upto__ab">
+    <div class="d-flex align-items-center justify-content-center flex-wrap">
+    <h2 class="text-white fs-5 lh-1">Get up to</h2> 
+    <strong class="font-weight-700 animate-text text-white fs-1 m-1 lh-1">25%</strong>
+    <div class="d-block">
+    <p class="fs-6 p-0"><b class="text-white font-weight-600 lh-1">Student Grant</b></p>
+    </div>
+    </div>
+    </div>
+    </div>
+
+</div>
+</div>
+
+
+<div class="col-lg-6 col-md-12 formsec_right">
+<div class="dsu-intro">
+<div id="applyBox">
+<div class="applyBox">
+<div class="dsu-form rounded p-0 bg-white">
+<div class="frmBg">
+<span class="fs-4 font-weight-700 text-dark px-5 d-inline-block my-4">Enquire Now</span>
+</div>
+
+<div class="contact_fild">
+<form id="formID" name="contact-form" method="post" action="#">
+<div class="formIDfid">
+<div class="contact-fild-box">
+<div class="form-group">
+<input name="name" class="form-control validate[required, custom[name]]" placeholder="Name*" data-errormessage-value-missing="Name is required!" type="text" required>
+</div>
+</div>
+
+<div class="contact-fild-box">
+<div class="form-group">
+<input name="email" class="form-control validate[required, custom[email]]" placeholder="Email*" maxlength="30" data-errormessage-value-missing="* Email is required!" type="email" required>
+</div>
+</div>
+
+<div class="contact-fild-box">
+<div class="form-group">
+<input  class="form-control" id="phone" type="tel" maxlength="10" placeholder="Mobile*" name="phone" pattern="[6-9]{1}[0-9]{9}" title="Phone number with 6-9 and remaing 9 digit with 0-9" required>
+</div>
+</div>
+
+<div class="contact-fild-box">
+<div class="form-group">
+<select class="form-select validate[required]" data-errormessage-value-missing="* Course is required!" name="course" required>
+<option selected="selected" value="">Select Course</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+<option value="MCA">MCA</option>
+<option value="M.Com">M.Com</option>
+<option value="BA">BA</option>
+<option value="MA">MA</option>
+<option value="M.Sc">M.Sc</option>
+<option value="B.Tech">B.Tech</option>
+</select>
+</div>
+</div>
+<div class="contact-fild-box">
+<div class="form-group">
+<select name="state" id="stateid" onchange="select_state_func()" data-errormessage-value-missing="* State is required!" class="form-select validate[required]" required>
+<option value="">Select State*</option>
+<option value="1">Andaman &amp; Nicobar Islands</option>
+<option value="2">Andhra Pradesh</option>
+<option value="3">Arunachal Pradesh</option>
+<option value="4">Assam</option>
+<option value="5">Bihar</option>
+<option value="6">Chandigarh</option>
+<option value="7">Chhattisgarh</option>
+<option value="32">Dadra &amp; Nagar Haveli</option>
+<option value="33">Daman &amp; Diu</option>
+<option value="8">Delhi &amp; NCR</option>
+<option value="9">Goa</option>
+<option value="10">Gujarat</option>
+<option value="11">Haryana</option>
+<option value="12">Himachal Pradesh</option>
+<option value="13">Jammu and Kashmir</option>
+<option value="14">Jharkhand</option>
+<option value="15">Karnataka</option>
+<option value="16">Kerala</option>
+<option value="17">Madhya Pradesh</option>
+<option value="18">Maharashtra</option>
+<option value="19">Manipur</option>
+<option value="20">Meghalaya</option>
+<option value="21">Mizoram</option>
+<option value="22">Nagaland</option>
+<option value="23">Orissa</option>
+<option value="24">Pondicherry</option>
+<option value="25">Punjab</option>
+<option value="26">Rajasthan</option>
+<option value="34">Sikkim</option>
+<option value="27">Tamil Nadu</option>
+<option value="36">Telangana</option>
+<option value="28">Tripura</option>
+<option value="29">Uttar Pradesh</option>
+<option value="30">Uttaranchal</option>
+<option value="31">West Bengal</option>
+</select>
+</div>
+</div>
+
+<div class="contact-fild-box">
+<div class="form-group">
+<p id="citypid" class="py-0">
+<select name="city" id="cityid" data-errormessage-value-missing="* City is required!" class="form-select formbg1 validate[required]" required>
+<option value="">Select City*</option>
+</select>
+</p>
+</div>
+</div>
+
+<div class="contact-fild-box mt-4">
+<div class="form-group">
+<button id="btnSubmit" type="submit" class="btn btn_submit bg-dark w-100 text-uppercase font-weight-700">Submit</button>
+</div>
+</div>
+</div>
+</form>
+</div>  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Hero section end (Slider) --> 
+<section class="position-relative stats_section lightBg py-5">
+<div class="container">
+<div class="widget-title position-relative wow fadeInUp text-center mb-4" data-wow-delay="0ms"> 
+<h2 class="font-weight-700 fs-3 text-dark d-inline-block border-bottom border-dark pb-3 title-anim">University <strong class="text-orange">Stats#</strong></h2>
+</div> 
+
+<div class="d-flex justify-content-between flex-wrap">
+    <div class="stats__item wow fadeInUp">
+        <h3 class="font-weight-700 text-orange fs-2 mb-2">2000+</h3>
+        <p class="fs-5">Recruiters</p>
+    </div>
+
+    <div class="stats__item wow fadeInUp" data-wow-delay="0ms">
+        <h3 class="font-weight-700 text-orange fs-2 mb-2">2%</h3>
+        <p class="fs-5">of world's top scientists are LPU Faculty</p>
+    </div>
+
+    <div class="stats__item wow fadeInUp" data-wow-delay="200ms"> 
+        <h3 class="font-weight-700 text-orange fs-2 mb-2">20800</h3>
+        <p class="fs-5">of Research Publications</p>
+    </div>
+
+    <div class="stats__item wow fadeInUp" data-wow-delay="400ms"> 
+        <h3 class="font-weight-700 text-orange fs-2 mb-2">5 Lakh+</h3>
+        <p class="fs-5">Global LPU community</p>
+    </div>
+
+    <div class="stats__item wow fadeInUp" data-wow-delay="600ms">
+        <h3 class="font-weight-700 text-orange fs-2 mb-2">1800+</h3>
+        <p class="fs-5">International Students</p>
+    </div>
+</div>
+
+</div>
+</section>
+
+<section class="py-5 ranking__section position-relative">
+<div class="container">
+<div class="widget-title position-relative  wow fadeInUp text-center mb-4" data-wow-delay="0ms"> 
+<h2 class="font-weight-700 fs-3 text-dark d-inline-block border-bottom border-dark pb-3 title-anim">Recognised &  <strong class="text-orange">Accredited</strong></h2>
+</div> 
+
+<div class="owl-carousel owl-theme mt-5" id="ranking-slider">
+<div class="g-col-md-3 card wow zoomIn">
+<img class="av-img" src="images/naac.webp" alt="Card image">
+<div class="card-body">LPU receives highest NAAC grade <span>A++</span> with a score of <span> 3.68 </span> on
+a scale of 4 amongst all <span>Dual mode</span> universities (both Government and Private). </div>
+</div>
+
+<div class="g-col-md-3  card wow zoomIn" data-wow-delay="0ms">
+<img class="av-img" src="images/nirf.webp" alt="Card image">
+<div class="card-body"> National Institutional Ranking 2024 Framework <span>(NIRF)</span> ranked Lovely Professional
+University <span>27th </span>amongst all Government and Private Universities in India. </div>
+</div>
+
+<div class="g-col-md-3  card wow zoomIn" data-wow-delay="200ms">
+<img class="av-img" src="images/ugc.webp" alt="Card image">
+<div class="card-body">LPU is duly recognized by the University Grants Commission and LPU Online is duly
+<span>Entitled</span> by <span>UGC-DEB</span> to offer programs in Online mode. </div>
+</div>
+
+<div class="g-col-md-3  card wow zoomIn" data-wow-delay="400ms">
+<img class="av-img" src="images/aicte.webp" alt="Card image">
+<div class="card-body"><span>Online MBA and Online MCA</span> Programs offered in LPU Online are duly approved by All India
+Council For Technical Education <span>(AICTE).</span> </div>
+</div>
+
+<div class="g-col-md-3  card">
+<img class="av-img" src="images/time.webp" alt="Card image">
+<div class="card-body">LPU is ranked <span>25th</span> amongst Top Universities of India (Both Government & Private) as per Times Higher Education World University Rankings 2024.</div>
+</div>
+
+<div class="g-col-md-3  card">
+    <img class="av-img" src="images/the.webp" alt="Card image">
+    <div class="card-body">Times Higher Education Impact Rankings 2023 has ranked LPU <span>2nd</span> in India
+    amongst both Government and Private Universities and we have secured a global band of 101-200.</div>
+    </div>
+
+</div>
+
+</div>
+</section>
+
+<section class="programs-section bg-orange py-5 position-relative">
+<div class="container">
+<div class="widget-title position-relative  wow fadeInUp text-center mb-4" data-wow-delay="0ms"> 
+<h2 class="font-weight-700 fs-3 text-white d-inline-block border-bottom border-white pb-3 title-anim">Courses <strong>Offered</strong></h2>
+</div> 
+
+
+<div class="tab-content"> 
+    <div class="owl-carousel owl-theme" id="offered-slider">
+        <div class="programs__one wow zoomIn" data-wow-delay="0ms">
+        <div class="programs__item shadow position-relative">
+        <div class="image-box position-relative">
+        <figure class="image">
+        <a><img class="img-fluid" src="images/MBAThumb.webp" alt=""/></a>
+        </figure>
+        </div>
+        <div class="title position-relative">
+        <div class="row align-items-center">
+        <div class="col-lg-12">
+        <div class="px-3 py-2">
+        <h6 class="font-weight-700 fs-3">MBA <sup class="fw-normal fs-6">( 9 specializations )</sup></h6>
+        <p class="fs-6">Duration : <b class="text-orange">2 years</b></p>
+        <p class="fs-6">Total Credits : <b class="text-orange">102</b></p>
+        <p class="fs-6">Discipline Specific Electives : <b class="text-orange">6</b></p>   
+            <div class="row mt-3 align-content-center">
+        <div class="col-6"> 
+            <div class="blog-text"><a class="fs-6 py-3" href="#applyBox">Enroll Now</a></div>
+          </div>
+
+          <div class="col-6">
+            <div class="blog-text"><a class="fs-6 bg-transparent text-orange py-3" href="#" data-bs-toggle="modal" data-bs-target="#mbaModal">View Course  >></a></div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div> 
+        </div>
+        </div>
+        </div>
+
+        <div class="programs__one wow zoomIn" data-wow-delay="300ms">
+            <div class="programs__item shadow position-relative">
+            <div class="image-box position-relative">
+            <figure class="image">
+            <a><img class="img-fluid" src="images/mcaThumb.webp" alt=""/></a>
+            </figure>
+            </div>
+            <div class="title position-relative">
+            <div class="row align-items-center">
+            <div class="col-lg-12">
+            <div class="px-3 py-2">
+            <h6 class="font-weight-700 fs-3">MCA <sup class="fw-normal fs-6">( 5 specializations )</sup></h6>
+            <p class="fs-6">Duration : <b class="text-orange">2 years</b></p>
+            <p class="fs-6">Total Credits : <b class="text-orange">104</b></p>
+            <p class="fs-6">Discipline Specific Electives : <b class="text-orange">4</b></p>   
+                <div class="row mt-3 align-content-center">
+            <div class="col-6"> 
+                <div class="blog-text"><a class="fs-6 py-3" href="#applyBox">Enroll Now</a></div>
+              </div>
+    
+              <div class="col-6">
+                <div class="blog-text"><a class="fs-6 bg-transparent text-orange py-3" href="#" data-bs-toggle="modal" data-bs-target="#mcaModal">View Course  >></a></div>
+              </div>
+            </div>
+            </div>
+            </div>
+            </div> 
+            </div>
+            </div>
+            </div>
+
+            <div class="programs__one wow zoomIn" data-wow-delay="600ms">
+                <div class="programs__item shadow position-relative">
+                <div class="image-box position-relative">
+                <figure class="image">
+                <a><img class="img-fluid" src="images/bcaThumb.webp" alt=""/></a>
+                </figure>
+                </div>
+                <div class="title position-relative">
+                <div class="row align-items-center">
+                <div class="col-lg-12">
+                <div class="px-3 py-2">
+                <h6 class="font-weight-700 fs-3">BCA</h6>
+                <p class="fs-6">Duration : <b class="text-orange">3 years</b></p>
+                <p class="fs-6">Total Credits : <b class="text-orange">124</b></p>
+                <p class="fs-6">Discipline Specific Electives : <b class="text-orange">4</b></p>   
+                    <div class="row mt-3 align-content-center">
+                <div class="col-6"> 
+                    <div class="blog-text"><a class="fs-6 py-3" href="#applyBox">Enroll Now</a></div>
+                  </div>
+        
+                  <div class="col-6">
+                    <div class="blog-text"><a class="fs-6 bg-transparent text-orange py-3" href="#" data-bs-toggle="modal" data-bs-target="#bcaModal">View Course  >></a></div>
+                  </div>
+                </div>
+                </div>
+                </div>
+                </div> 
+                </div>
+                </div>
+                </div>
+
+<div class="programs__one">
+<div class="programs__item shadow position-relative">
+<div class="image-box position-relative">
+<figure class="image">
+<a><img class="img-fluid" src="images/mcomThumb.webp" alt=""/></a>
+</figure>
+</div>
+<div class="title position-relative">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<div class="px-3 py-2">
+<h6 class="font-weight-700 fs-3">M.Com</h6>
+<p class="fs-6">Duration : <b class="text-orange">2 years</b></p>
+<p class="fs-6">Total Credits : <b class="text-orange">84</b></p>
+<p class="fs-6">Discipline Specific Electives : <b class="text-orange">4</b></p>   
+<div class="row mt-3 align-content-center">
+<div class="col-6"> 
+<div class="blog-text"><a class="fs-6 py-3" href="#applyBox">Enroll Now</a></div>
+</div>
+
+<div class="col-6">
+    <div class="blog-text"><a class="fs-6 bg-transparent text-orange py-3" href="#" data-bs-toggle="modal" data-bs-target="#mcomModal">View Course  >></a></div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div> 
+
+<div class="programs__one">
+<div class="programs__item shadow position-relative">
+<div class="image-box position-relative">
+<figure class="image">
+<a><img class="img-fluid" src="images/baThumb.webp" alt=""/></a>
+</figure>
+</div>
+<div class="title position-relative">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<div class="px-3 py-2">
+<h6 class="font-weight-700 fs-3">BA</h6>
+<p class="fs-6">Duration : <b class="text-orange">3 years</b></p>
+<p class="fs-6">Total Credits : <b class="text-orange">124</b></p>
+<p class="fs-6">Discipline Specific Electives : <b class="text-orange">4</b></p>   
+<div class="row mt-3 align-content-center">
+<div class="col-6"> 
+<div class="blog-text"><a class="fs-6 py-3" href="#applyBox">Enroll Now</a></div>
+</div>
+
+<div class="col-6">
+    <div class="blog-text"><a class="fs-6 bg-transparent text-orange py-3" href="#" data-bs-toggle="modal" data-bs-target="#baModal">View Course  >></a></div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div> 
+
+<div class="programs__one">
+<div class="programs__item shadow position-relative">
+<div class="image-box position-relative">
+<figure class="image">
+<a><img class="img-fluid" src="images/maThumb.webp" alt=""/></a>
+</figure>
+</div>
+<div class="title position-relative">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<div class="px-3 py-2">
+<h6 class="font-weight-700 fs-3">MA</h6>
+<p class="fs-6">Duration : <b class="text-orange">2 years</b></p>
+<p class="fs-6">Total Credits : <b class="text-orange">80</b></p>
+<p class="fs-6">General Electives : <b class="text-orange">6</b></p>   
+<div class="row mt-3 align-content-center">
+<div class="col-6"> 
+<div class="blog-text"><a class="fs-6 py-3" href="#applyBox">Enroll Now</a></div>
+</div>
+
+<div class="col-6">
+    <div class="blog-text"><a class="fs-6 bg-transparent text-orange py-3" href="#" data-bs-toggle="modal" data-bs-target="#maModal">View Course  >></a></div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div> 
+
+<div class="programs__one">
+<div class="programs__item shadow position-relative">
+<div class="image-box position-relative">
+<figure class="image">
+<a><img class="img-fluid" src="images/mscThumb.webp" alt=""/></a>
+</figure>
+</div>
+<div class="title position-relative">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<div class="px-3 py-2">
+<h6 class="font-weight-700 fs-3">M.Sc</h6>
+<p class="fs-6">Duration : <b class="text-orange">2 years</b></p>
+<p class="fs-6">Total Credits : <b class="text-orange">88</b></p>
+<p class="fs-6">General Electives : <b class="text-orange">4</b></p>   
+<div class="row mt-3 align-content-center">
+<div class="col-6"> 
+<div class="blog-text"><a class="fs-6 py-3" href="#applyBox">Enroll Now</a></div>
+</div>
+
+<div class="col-6">
+    <div class="blog-text"><a class="fs-6 bg-transparent text-orange py-3" href="#" data-bs-toggle="modal" data-bs-target="#mscModal">View Course  >></a></div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div> 
+
+<div class="programs__one">
+    <div class="programs__item shadow position-relative">
+    <div class="image-box position-relative">
+    <figure class="image">
+    <a><img class="img-fluid" src="images/btechThumb.webp" alt=""/></a>
+    </figure>
+    </div>
+    <div class="title position-relative">
+    <div class="row align-items-center">
+    <div class="col-lg-12">
+    <div class="px-3 py-2">
+    <h6 class="font-weight-700 fs-3">B.Tech</h6>
+    <p class="fs-6">Duration : <b class="text-orange">2 years</b></p>
+    <p class="fs-6">Total Credits : <b class="text-orange">88</b></p>
+    <p class="fs-6">General Electives : <b class="text-orange">4</b></p>   
+    <div class="row mt-3 align-content-center">
+    <div class="col-6"> 
+    <div class="blog-text"><a class="fs-6 py-3" href="#applyBox">Enroll Now</a></div>
+    </div>
+    
+    <div class="col-6">
+        <div class="blog-text"><a class="fs-6 bg-transparent text-orange py-3" href="#" data-bs-toggle="modal" data-bs-target="#btechModal">View Course  >></a></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div> 
+    </div>
+    </div>
+    </div> 
+        
+        </div>  
+
+</div>
+</div>
+</section>
+
+<section class="development-section py-5 facilities__section position-relative">
+<div class="container">
+<div class="widget-title position-relative  wow fadeInUp text-center mb-4" data-wow-delay="0ms"> 
+<h2 class="font-weight-700 fs-3 text-dark d-inline-block border-bottom border-dark pb-3 title-anim">The LPU <strong class="text-orange">Advantage</strong></h2>
+</div> 
+
+<div class="owl-carousel owl-theme" id="leaders-slider">
+<div class="development_block wow fadeInUp" data-wow-delay="0ms">
+<div class="partners__item fac__white">
+<div class="facilities_flex">
+<div class="icon__choice flex-c hover eff">
+<div class="icon_svg text-center"><img class="img-fluid" src="images/icon1.webp" alt=""/></div>
+</div>
+<div class="facilities_con ms-4 w-75">
+<h5 class="fw-bold fs-6 mb-1">Credible Degree</h5>
+<p class="fs-14">UGC Entitled Degree Programs with AICTE Approved Online MBA and Online MCA program</p>
+</div>
+</div>
+</div>
+
+<div class="partners__item fac__white">
+<div class="facilities_flex">
+<div class="icon__choice flex-c hover eff">
+<div class="icon_svg text-center"><img class="img-fluid" src="images/icon2.webp" alt=""/></div>
+</div>
+<div class="facilities_con ms-4 w-75">
+<h5 class="fw-bold fs-6 mb-1">Credible Degree</h5>
+<p class="fs-14">UGC Entitled Degree Programs with AICTE Approved Online MBA and Online MCA program</p>
+</div>
+</div>
+</div>
+
+<div class="partners__item fac__white">
+<div class="facilities_flex">
+<div class="icon__choice flex-c hover eff">
+<div class="icon_svg text-center"><img class="img-fluid" src="images/icon3.webp" alt=""/></div>
+</div>
+<div class="facilities_con ms-4 w-75">
+<h5 class="fw-bold fs-6 mb-1">Masterclasses by Industry Expert</h5>
+<p class="fs-14">Guest Lectures and Master classes by Industry Experts</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="development_block wow fadeInUp" data-wow-delay="300ms">
+<div class="partners__item fac__white">
+<div class="facilities_flex">
+<div class="icon__choice flex-c hover eff">
+<div class="icon_svg text-center"><img class="img-fluid" src="images/icon4.webp" alt=""/></div>
+</div>
+<div class="facilities_con ms-4 w-75">
+<h5 class="fw-bold fs-6 mb-1">Contemporary Curriculum</h5>
+<p class="fs-14">Industry oriented Curriculum designed by experts</p>
+</div>
+</div>
+</div>
+
+<div class="partners__item fac__white">
+<div class="facilities_flex">
+<div class="icon__choice flex-c hover eff">
+<div class="icon_svg text-center"><img class="img-fluid" src="images/icon5.webp" alt=""/></div>
+</div>
+<div class="facilities_con ms-4 w-75">
+<h5 class="fw-bold fs-6 mb-1">LIVE Lectures</h5>
+<p class="fs-14">Interactive LIVE lectures on weekends</p>
+</div>
+</div>
+</div>
+
+<div class="partners__item fac__white">
+<div class="facilities_flex">
+<div class="icon__choice flex-c hover eff">
+<div class="icon_svg text-center"><img class="img-fluid" src="images/icon6.webp" alt=""/></div>
+</div>
+<div class="facilities_con ms-4 w-75">
+<h5 class="fw-bold fs-6 mb-1">Flexible Online Examination</h5>
+<p class="fs-14">Online proctored examination with provision to draw your own date-sheet</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="development_block wow fadeInUp" data-wow-delay="600ms">
+    <div class="partners__item fac__white">
+    <div class="facilities_flex">
+    <div class="icon__choice flex-c hover eff">
+    <div class="icon_svg text-center"><img class="img-fluid" src="images/icon7.webp" alt=""/></div>
+    </div>
+    <div class="facilities_con ms-4 w-75">
+    <h5 class="fw-bold fs-6 mb-1">Academic support</h5>
+    <p class="fs-14">24/7 Academic Support through Learning Management System and Mobile App</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="partners__item fac__white">
+    <div class="facilities_flex">
+    <div class="icon__choice flex-c hover eff">
+    <div class="icon_svg text-center"><img class="img-fluid" src="images/icon8.webp" alt=""/></div>
+    </div>
+    <div class="facilities_con ms-4 w-75">
+    <h5 class="fw-bold fs-6 mb-1">Recorded Content</h5>
+    <p class="fs-14">400+ hours of Recorded video content</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="partners__item fac__white">
+    <div class="facilities_flex">
+    <div class="icon__choice flex-c hover eff">
+    <div class="icon_svg text-center"><img class="img-fluid" src="images/icon6.webp" alt=""/></div>
+    </div>
+    <div class="facilities_con ms-4 w-75">
+    <h5 class="fw-bold fs-6 mb-1">Equal Co-Curricular Opportunities</h5>
+    <p class="fs-14">Co-Curricular and Extra-curricular Opportunities at par with on-campus students
+        Download Prospectus</p>
+    </div>
+    </div>
+    </div>
+    </div>
+
+</div>
+</div>
+</section>
+
+<section class="position-relative py-5 bg-orange students__section">
+<div class="container">
+<div class="widget-title position-relative  wow fadeInUp text-center mb-4" data-wow-delay="0ms"> 
+<h2 class="font-weight-700 fs-3 text-white d-inline-block border-bottom border-white pb-3 title-anim">LPU's Legacy of <strong>Online Placement</strong></h2>
+</div>
+
+<div class="owl-carousel owl-theme mt-5" id="students-slider">
+    <div class="bg-white p-4 py-5 placemnet rounded mb-2 wow zoomIn">
+        <div class="row">
+            <div class="col-md-5 text-center">
+                <img class="av-img" src="images/placement-2.webp" alt="Aashi Chaudhary">
+            </div>
+            <div class="col-md-7 ">
+                <span class="name fs-3 font-weight-700">Aashi Chaudhary</span>
+                <span class="class">(Online MCA, 2021 Batch)</span>
+                <span class="placemnet-logo"><img src="images/intellipaat.webp" alt="Card image"></span>
+                <span class="salary">7.25 LPA</span>
+                </div>
+        </div>
+    </div>
+
+    <div class="bg-white p-4 py-5 placemnet rounded  wow zoomIn">
+        <div class="row">
+            <div class="col-md-5 text-center">
+                <img class="av-img" src="images/placement-1.webp" alt="Khamis Attahir">
+            </div>
+            <div class="col-md-7 ">
+                <span class="name fs-3 font-weight-700">Khamis Attahir</span>
+                <span class="class">(Online MBA, 2022 Batch)</span>
+                <span class="placemnet-logo"><img src="images/intellipaat.webp" alt="Card image"></span>
+                <span class="salary">7.25 LPA</span>
+                </div>
+        </div>
+    </div>
+
+    <div class="bg-white p-4 py-5 placemnet rounded">
+        <div class="row">
+            <div class="col-md-5 text-center">
+                <img class="av-img" src="images/placement-4.webp" alt="Bharti Joshi">
+            </div>
+            <div class="col-md-7 ">
+                <span class="name fs-3 font-weight-700">Bharti Joshi</span>
+                <span class="class">(MBA, 2022 Batch)</span>
+                <span class="placemnet-logo"><img src="images/skillish.webp" alt="Card image"></span>
+                <span class="salary">6.0 LPA</span>
+                </div>
+        </div>
+    </div>
+
+    <div class="bg-white p-4 py-5 placemnet rounded">
+        <div class="row">
+            <div class="col-md-5 text-center">
+                <img class="av-img" src="images/placement-3.webp" alt="Sumegh Bhardwaj">
+            </div>
+            <div class="col-md-7 ">
+                <span class="name fs-3 font-weight-700">Sumegh Bhardwaj</span>
+                <span class="class">(MBA, 2022-1)</span>
+                <span class="placemnet-logo"><img src="images/skillish.webp" alt="Card image"></span>
+                <span class="salary">6.0 LPA</span>
+                </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+</section>
+<!-- footer -->
+<footer class="footer position-relative py-3 text-center">
+<div class="container">
+<p class="text-dark fs-14">Copyright © 2024 Lovely Professional University</p>
+</div>
+</footer>
+
+
+
+<a href="#" id="back-top" title="Back To Top"></a> 
+<div class="sideNavi" id="sideNavi" style="display: none;">
+<div class="sideNavi-flex">
+<div class="sideNavi-item"><a class="text-uppercase downbg" href="#applyBox">APPLY NOW!</a></div>
+</div>
+</div>
+
+
+<!-- MBAModal -->
+<div class="modal fade" id="mbaModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title font-weight-700 fs-5">Master of Business Administration (MBA)</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<div class="">
+<p>The online MBA program offered by LPU is the right mix of basic management knowledge and complex business concepts across various management domains like Finance, HR, Marketing, etc. The curriculum is such that it helps students develop leadership skills and soft skills. LPU offers this course in a completely online mode with the facility of both Live + Recorded lectures.</p>
+
+<h5 class="fw-bold mt-3 mb-2">Specialization</h5>
+<div class="row">
+    <div class="col-md-6">
+        <ul class="listing">
+            <li>Finance Management</li>
+            <li>Human Resource Management</li>
+            <li>Marketing Management</li>
+            <li>Data Science</li>
+            <li>Operations Management</li>
+            </ul>
+    </div>
+
+    <div class="col-md-6">
+        <ul class="listing">
+            <li>International Business Management</li>
+            <li>Information Technology</li>
+            <li>Digital Marketing</li>
+            <li>Business Analytics</li>
+            <li>Data Science and Analytics</li>
+            </ul>
+    </div>
+</div>
+
+<h5 class="fw-bold mt-3 mb-2">Job roles to explore</h5>
+<ul class="listing">
+    <li>Quality Control Manager</li>
+    <li>Business Development Manager</li>
+    <li>HR Recruiter</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- MCAModal -->
+<div class="modal fade" id="mcaModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title font-weight-700 fs-5">Master of Computer Applications (MCA)</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <div class="">
+    <p>LPU offers the Master of Computer Applications (MCA) in a fully online mode for a duration of 2 years that are divided into 4 semesters. Online MCA course is imparted through both live lectures and recorded lectures. This is to offer complete flexibility to the students who fail to attend live lectures. The live lectures are recorded and made accessible to all the students through the LMS.
+    </p>
+    
+    <h5 class="fw-bold mt-3 mb-2">Job roles to explore</h5>
+    <div class="row">
+<div class="col-md-6">
+<ul class="listing">
+    <li>Web developer</li>
+    <li>Software Engineer</li>
+    <li>Project Manager</li>
+</ul>
+</div>
+
+<div class="col-md-6">
+<ul class="listing">
+<li>Database Programmer</li>
+<li>Information Security Specialist</li>
+<li>Quality Assurance Specialist</li>
+</ul>
+</div>
+    
+        
+    </div>
+ 
+    </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+
+<!-- BCAModal -->
+<div class="modal fade" id="bcaModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title font-weight-700 fs-5">Bachelor of Computer Applications (BCA)</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <div class="">
+    <p>The online Bachelor of Computer Applications (BCA) course offered by LPU online is a 3 years course with 6 semesters of six months each. The course is imparted in a fully online mode. The pedagogy of the program is just like regular offline programs as there are live lectures scheduled for every course. However, the benefit is that these lectures are recorded and made available to the students in case they miss the live class.
+    </p>
+    
+    <h5 class="fw-bold mt-3 mb-2">Job roles to explore</h5>
+    <div class="row">
+        <div class="col-md-6">
+        <ul class="listing">
+        <li>Database Administrator</li>
+        <li>Software Developer</li>
+        </ul>
+        </div>
+
+        <div class="col-md-6">
+            <ul class="listing">
+                <li>Applications Developer</li>
+                <li>Network Administrator</li>
+                </ul>
+        </div>
+    
+        
+    </div>
+ 
+    </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+
+<!-- MCOMModal -->
+<div class="modal fade" id="mcomModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title font-weight-700 fs-5">M.Com</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <div class="">
+    <p>The online M.Com course offered by LPU is for a duration of 2 years with 4 semesters of six months each. The program is offered in a fully online mode using the LMS of the university. The classes are conducted live but they are recorded so the students can watch them any time in the future. The study material is also in digital form and available on the LMS.</p>
+    
+    <h5 class="fw-bold mt-3 mb-2">Job roles to explore</h5>
+    <div class="row">
+        <div class="col-md-6">
+        <ul class="listing">
+        <li>Internal Auditor</li>
+        <li>Investment Analyst</li>
+        <li>Equity Analyst</li>
+       
+        </ul>
+        </div>
+
+        <div class="col-md-6">
+            <ul class="listing">
+                <li> Financial Advisor</li>
+        <li>Terminal Manager</li>
+                </ul>
+        </div>
+    
+        
+    </div>
+ 
+    </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+
+<!-- BAModal -->
+<div class="modal fade" id="baModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title font-weight-700 fs-5">BA</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <div class="">
+    <p>The Bachelor of Arts (BA) degree at LPU is offered in a fully online mode using the Learning Management System (LMS) of LPU. The classes are held live and are also recorded for further reference. This is to offer complete flexibility to the students. The study material for the course is also in digital form and available on the LMS.</p>
+    
+    <h5 class="fw-bold mt-3 mb-2">Job roles to explore</h5>
+    <div class="row">
+        <div class="col-md-6">
+        <ul class="listing">
+        <li>Sales Associate</li>
+        <li> Journalist</li>
+        <li>Content Writer</li>
+        </ul>
+        </div>
+
+        <div class="col-md-6">
+            <ul class="listing">
+                <li>Indian Administrative Service</li>
+                <li>Indian Defense Accounts Service</li>
+                </ul>
+        </div>
+    
+        
+    </div>
+ 
+    </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+
+<!-- MAModal -->
+<div class="modal fade" id="maModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title font-weight-700 fs-5">MA</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <div class="">
+    <p>LPU offers the Master of Arts (MA) in a fully online mode through the Learning Management System (LMS) of the university. The classes are held live according to a pre-decided schedule. The live classes are recorded and uploaded on the LMS for students to access them at any time in the future. The learning material is also in digital form and available on the LMS.
+    </p>
+    
+    <h5 class="fw-bold mt-3 mb-2">Job roles to explore</h5>
+    <div class="row">
+        <div class="col-md-6">
+        <ul class="listing">
+        <li>Public Administrator</li>
+        <li>Financial Analyst</li>
+        <li>Content Writer</li>
+        </ul>
+        </div>
+
+        <div class="col-md-6">
+            <ul class="listing">
+                <li> Proof Reader</li>
+                <li>Public Relation Officer</li>
+                <li>Social Worker</li>
+                </ul>
+        </div>
+    
+        
+    </div>
+ 
+    </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+
+<!-- mscModalModal -->
+<div class="modal fade" id="mscModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title font-weight-700 fs-5">M.Sc</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <div class="">
+    <p>LPU’s Online M.Sc program or Master of Science degree course is one of the prominent online programs that equip you with all the latest & advanced knowledge of the scientific field. Online M.Sc 2-year PG program is divided into a course of 4 semesters & is available in a variety of specializations.</p>
+    
+    <h5 class="fw-bold mt-3 mb-2">Job roles to explore</h5>
+    <div class="row">
+        <div class="col-md-6">
+        <ul class="listing">
+        <li>Mathematics Specialist</li>
+        <li>Data Analyst</li>
+        <li>Quantitative Risk Analyst</li>
+        <li> Interest Rate Trending Strategist</li>
+        
+        </ul>
+        </div>
+
+        <div class="col-md-6">
+            <ul class="listing">
+                <li>Operation Manager</li>
+        <li> Mathematics Professor</li>
+        <li>Senior Business Analyst</li>
+                </ul>
+        </div>
+    
+        
+    </div>
+ 
+    </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+
+<!-- btechModal -->
+<div class="modal fade" id="btechModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title font-weight-700 fs-5">B.Tech</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <div class="">
+    <p>LPU or Lovely Professional University has been a very famous institute for many years. This institute provides multiple academic options in different courses and subjects and engineering is one of them. In the B.Tech lateral entry course, students receive the same quality of education as regular B.Tech students, the major difference is that lateral entry students do not enroll in the first year because they already have a diploma, therefore, they are already aware of the basis of the first year. In this course, students have to visit campus every day to attend classes and mark their attendance, they have to pay the fee for the hostel, bus, mess, etc. like other regular students.</p>
+    
+    <h5 class="fw-bold mt-3 mb-2">Specialization</h5>
+    <div class="row">
+        <div class="col-md-6">
+        <ul class="listing">
+                <li>Computer Science Engineering (CSE)</li>
+                <li>Mechanical Engineering (ME)</li>
+                <li>Biotechnology (BT)</li>
+                <li>Electronics and Communication Engineering (ECE)</li>
+                <li>ME - Mechatronics</li>
+                <li>Food Technology</li>
+                <li>Information Technology (IT)</li>
+                <li>Automobile Engineering (AE)</li>
+                
+        </ul>
+        </div>
+
+        <div class="col-md-6">
+            <ul class="listing">
+                <li>Robotics and Automation</li>
+                <li>Biomedical Engineering (BE)</li>
+                <li>Electrical Engineering (EE)</li>
+                <li>Aerospace Engineering</li>
+                <li>Chemical Engineering (CHE)</li>
+                <li>Electrical and Electronics Engineering (EEE)</li>
+                <li>Civil Engineering (CE)</li>
+                </ul>
+        </div>
+    
+        
+    </div>
+    <h5 class="fw-bold mt-3 mb-2">Job roles to explore</h5>
+    <div class="row">
+        <div class="col-md-6">
+        <ul class="listing">
+                <li>Software Developer Engineer</li>
+                <li> Mechanical Engineer</li>
+                <li>Civil Engineer</li>
+               
+                
+        </ul>
+        </div>
+
+        <div class="col-md-6">
+            <ul class="listing">
+                <li> Electrical Engineer</li>
+                <li> ECE Engineer</li>
+                <li>IT Engineer</li>
+                </ul>
+        </div>
+    
+        
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+</div>
+<!-- jQuery plugins --> 
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+<script src="js/form/jquery.validationEngine.js"></script>
+<script src="js/form/jquery.validationEngine-en.js"></script>
+<script src="js/form/script.js"></script>
+<script src="js/form/state.js"></script>
+</body>
+</html>

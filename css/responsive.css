@@ -1,0 +1,234 @@
+@media only screen and (max-width: 1399px){
+.header .navbar-light .nav-item .nav-link { font-size: 0.8rem;}
+.content_ab-relative .bnr__Adm_dv { padding-left: 1rem;}
+.content_ab-relative .button__flex strong { padding: 1.2rem 1.5rem;}
+.admission-section .sele__item:after { width: auto;}
+.bnrThub { left: 28%; bottom: 0; }
+}
+
+@media only screen and (max-width: 1024px){
+#hero.container-fluid, #hero.container-fluid .row { padding-left: 0px; padding-right: 0px; margin-right: 0px; margin-left: 0px; }
+
+}
+
+@media only screen and (max-width: 980px){
+.desktop, .patten8 { display: none;}
+.mobile { display: block;}
+.dsu-intro { position: relative; width: 100%; margin: 1rem 0; z-index: 1; margin-top: -1.5rem; }
+.elig_dv p { text-align: center !important; }
+.dsu-form { margin-left: auto; margin-right: auto;}
+.dsu-addmission { margin-top: 0; padding-top: 0px; z-index: 2; }
+.bc-img01 {  background-attachment: initial; clip-path: none; background-image: none; height: auto; padding-bottom: 0;}
+#back-top{ display: none !important; }
+.dsu-addmission { text-align: center; }
+.applyBox { margin-top: 0; width: 100%;}
+.hero-section {
+    clip-path: none;
+}
+.courses__fluid {
+    padding: 2.5rem 0;
+}
+.pe-5 {
+    padding-right: 0rem!important;
+}
+.bc-img01:after, .bc-img01::before { display: none;}
+
+/* .leftsec_content { background-color: var(--bg-orange); padding-bottom: 1rem; position: relative;
+} */
+
+.leftsec_content {
+    background-image: url(../images/banner.webp);
+    background-size: cover; padding: 0.5rem 0; padding-bottom: 2rem;
+    background-position: center center;  mix-blend-mode: multiply; 
+    background-repeat: no-repeat; position: relative;
+}
+
+.leftsec_content:after {
+    position: absolute; background-color: var(--bg-orange); opacity: 0.9; 
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+.header .navbar-light .nav-item .nav-link {
+    padding: 1rem 0;
+    border-bottom: 1px solid #2a2a2a;
+    border-right: 0;
+}
+.stats_section .stats__item:last-child { width: 100%;}
+.stats_section .stats__item {width: 50%; border: 1px solid rgba(0, 0, 0, 0.1); text-align: center; padding: 0.5rem;}
+.stats_section .stats__item:after { display: none;}
+.stats_section .stats__item p { width: 100%; }
+.placemnet { text-align: center;}
+.placemnet .av-img { margin-bottom: 1rem;}
+.ranking__section .container { padding-left: 0; padding-right: 0;}
+.partners__item .facilities_flex {
+    margin: 1.5rem 0 0;
+}
+.facilities_flex { flex-wrap: wrap; text-align: center; }
+.facilities__section .partners__item .icon__choice { margin: 0 auto 1rem;}
+.facilities_con.ms-4.w-75 { width: 100% !important; margin: 0 !important; }
+}
+
+@media only screen and (max-width: 736px){
+.container, .applyBox { max-width: 100%;}
+.thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv { width: 100%; }
+.mx-5 { margin-left: 0 !important; margin-right: 0 !important; }
+.bouncebtn {
+    animation: none;
+    -webkit-animation: none;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+
+.w-75 { width: 100% !important; }
+.header .header-absolute .mobile__dv a span { display: none;}
+.header .header-absolute .mobile__dv a { font-size: 0.8rem; padding: 8px 10px !important; border-radius: 15px !important;}
+header { padding: 0.5rem 0;}
+.student_ctnr, .elig_dv { text-align: center;}
+.widget-title h2 br { display: none;}
+.online__section .online__item { flex-wrap: wrap; text-align: center;}
+.online__section .online__item h5 { width: 100%; margin-left: 0;}
+.online__section .online__item .icon_svg { margin: 0 auto;}
+.loction.fs-3 {
+    font-size: calc(1rem + .6vw) !important;
+}
+
+
+.thankyou-sec .hero-thankyou .bc-img01 {padding-bottom: 4%; height: 100%;}
+.thankyou-sec .hero-thankyou .bc-img01:after {display: block; background-color: #FFF; opacity: 1;}
+.thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv { padding: 0;}
+.thankyou-sec .hero-thankyou .dow__section { padding: 1rem 0.5rem !important; margin-bottom: 0.5rem;}
+.thankyou-sec .hero-thankyou .dow__section .fsize14 { padding: 0;}
+.thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv p { font-size: 16px; line-height: 1.4; }
+}
+
+@media only screen and (max-width: 667px){
+.sideNavi {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    top: auto; right: auto;
+    left: 0;
+    z-index: 5;
+        -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.sideNavi a { display: block; border-radius: 0; text-align: center; padding: 12px 2px; }
+.footer { height: 120px; font-size: 12px; }
+.sideNavi .sideNavi-flex { display: flex;}
+.sideNavi-item { width: 100%;}
+.sideNavi a { border: 0; }
+#rank-slider.owl-theme .owl-nav [class*=owl-] { display: none;}
+#aktu-slider, .elig_dv { margin-top: 2rem;}
+.affHead::after { right: 45%; top: 45px; transform: rotate(90deg);}
+.py-5 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+.elig_section:after { width: 38%; }
+.minD { display: none;}
+.elig_section { text-align:  center;}
+.elig_section .col-md-5 { margin-bottom: 0; font-size: 16px !important; padding: 0;}
+.elig_section .eli-ab span.text-dark {
+    position: relative;
+    top: 0;
+}
+.ms-2 { margin-left: 0rem !important;}
+.testimonial__item, .testi__content p { text-align: center;}
+.mbaText { text-align: center;
+    width: 100%;
+    display: block !important;}
+.dsu-addmission .content_bnr-flex .mbaText p { clip-path: none; display: inline-block; padding: 0.5rem 0.3rem; font-size: 1.1rem;}    
+.dsu-addmission .content_bnr-flex .mbaText p br {  display: none;}  
+.content_bnr-flex .mb-3 { margin-bottom: 0 !important;}  
+.ctc__dv { width: 75%; margin: 10px auto 0 !important;}
+.loction.mt-5 { margin-top: 0.5rem !important;}
+.rank-section .rank__item .digitally-one__counter-single { padding: 1.5rem 0.2rem;}
+.dsu-addmission .content_bnr-flex .mbaText h3 { font-size: 3rem; line-height: 1;}
+.ctc__content { text-align: left;}
+.content_bnr-flex.mb-5 { margin-bottom: 0.8rem !important;}
+.poten_item { font-size: 1rem;}
+}
+
+@media only screen and (max-width: 568px){
+.dsu-form { width: 100%; border: 1px solid #000; }
+.dsu-addmission .content_bnr-flex h1 br { display: none; }
+
+.online__section .online__item {
+    padding: 1rem;
+    height: 180px;
+    background-color: rgba(255, 215, 0, 0.8);
+    margin: 0.2rem;
+}
+.online__section .online__item h5 { font-size: 1.1rem;}
+.pt-5, .py-5 {
+    padding-top: 1.5rem !important; padding-bottom: 1.5rem !important;
+}
+.jain_section .rank__item { padding: 1.5rem 0rem;}
+
+.digitally-one__counter-single p { font-size: 1rem; }
+.blog-text > a { width: 100%; font-size: 1.1rem;}
+.programs__item { min-height: auto; margin: 1.5rem 0.5rem;}
+.tabs_list li { width: auto;}
+}
+
+@media only screen and (max-width: 480px){
+h1, h2, h3, h3, h4, h5, h6 { font-size: 24px; }
+p, ul.listing li, .elig_dv ul li { font-size: 14px; line-height: 20px; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+.offeredbxawd-content p { font-size: 13px;}
+.fsize28 {
+    font-size: 22px;
+}
+.thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv h3 {
+    font-size: 3em;
+}
+.thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv p { font-size: 16px; }
+.fs-5 {
+    font-size: 1rem!important;
+}
+.header .navbar-expand-lg .navbar-brand { width: 200px; }
+.programme__section .programme-item { height: auto; }
+.dsu-addmission .content_bnr-flex h1 { font-size: 1.4rem; margin: 1rem 0 !important; }
+.students__section .students__item { margin: 0;}
+.students__section .students__item { padding: 1rem;}
+.aheadTestimonial { margin-top: 1.5rem !important;}
+.amenities__section .amenities__item .amenities__icon { width: 120px; height: 120px;}
+.recruiters-section .recruiters-item .recruiters-logo { padding: 0.2rem;}
+.eligib-section { text-align: center;}
+.student_ctnr { margin-top: 0 !important;}
+.choose_services_sec { padding:  0 0!important;}
+
+}
+
+@media only screen and (max-width: 414px){
+.fs-2 {
+font-size: calc(1.2rem + .9vw) !important;
+}
+.elig_section .line {
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 384px){
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+}
+
+@media only screen and (max-width: 320px){
+
+}
